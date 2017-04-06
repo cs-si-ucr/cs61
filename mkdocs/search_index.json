@@ -32,8 +32,13 @@
         }, 
         {
             "location": "/dis01_1/", 
-            "text": "", 
+            "text": "Questions\n\n\n\n\n\n\nISA stands for \n_\n_.\n\nWhat is an ISA? What information is included in an ISA?\n\n\n\n\n\n\nWhat is a microprocessor?\n\n\n\n\n\n\nWhat do you think microprocessors are made of?\n\n\n\n\n\n\nWhat kind of components do you think will be in a microprocessor?\n\n\n\n\n\n\nHow do you think a microprocessor is designed?\n\n\n\n\n\n\nWhat is the relationship between a microprocessor and assembly language?\n\n\n\n\n\n\nWhat are you expecting to learn from this class?\n\n\n\n\n\n\nThe three types of instructions in LC-3 are \n_\n, \n_\n, and \n_\n_.\n\n\n\n\n\n\nIn the LC-3, there are 8 \n_\n_\n__ that serve as on-chip memory.\n\n\n\n\n\n\nThe BR (branch) instruction reads from the \n_\n to find out if the \n_\n was Negative, Zero, or Positive.\n\n\n\n\n\n\nIn the line of code below, when would the branch be taken?\n\n\n\n\n\n\nBRnz LABEL\n\n\n\n\n\n\n\n\nCan the LC-3 do everything the new Intel Pentium microprocessor can do?\n\n\n\n\n\n\nName 3 operation instructions.\n\n\n\n\n\n\nName 2 data movement instructions.\n\n\n\n\n\n\nName 3 or 4 control instructions.\n\n\n\n\n\n\nWhat information is specified in the \nADD\n and \nAND\n instruction?", 
             "title": "Week 1 Dis 2: "
+        }, 
+        {
+            "location": "/dis01_1/#questions", 
+            "text": "ISA stands for  _ _. \nWhat is an ISA? What information is included in an ISA?    What is a microprocessor?    What do you think microprocessors are made of?    What kind of components do you think will be in a microprocessor?    How do you think a microprocessor is designed?    What is the relationship between a microprocessor and assembly language?    What are you expecting to learn from this class?    The three types of instructions in LC-3 are  _ ,  _ , and  _ _.    In the LC-3, there are 8  _ _ __ that serve as on-chip memory.    The BR (branch) instruction reads from the  _  to find out if the  _  was Negative, Zero, or Positive.    In the line of code below, when would the branch be taken?    BRnz LABEL    Can the LC-3 do everything the new Intel Pentium microprocessor can do?    Name 3 operation instructions.    Name 2 data movement instructions.    Name 3 or 4 control instructions.    What information is specified in the  ADD  and  AND  instruction?", 
+            "title": "Questions"
         }
     ]
 }
