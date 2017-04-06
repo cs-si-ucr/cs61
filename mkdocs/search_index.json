@@ -1,0 +1,39 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to CS12 SI!\n\n\nThis is where all of the labs will be posted.\n\n\nWhat is SI?\n\n\nSupplemental Instruction is a series of weekly review sessions for students taking historically difficult courses.\nIt offers students the chance to collaborate, discuss challenging concepts, and study for exams.\n\n\nWhat isn\u2019t SI?\n\n\nSupplemental Instruction is not a lecture.\nSI Leaders are not there to teach you new material but to lead you in reviewing the material covered in lecture and to help guide you in understanding the subject.\n\n\nWho should go?\n\n\nIf you are in a Learning Community, attendance is mandatory.\n\n\nGuidelines:\n\n\n\n\nBe respectful. This includes silencing your cell phones and not using them during sessions.\n\n\nParticipate! You won\u2019t get very much out of SI if you don\u2019t.\n\n\nNo food or drink besides water. This is a rule placed by the administration. I will enforce it.\n\n\nLate entry and early exit should be quiet.\n\n\nSign in, even if you are late.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-cs12-si", 
+            "text": "This is where all of the labs will be posted.", 
+            "title": "Welcome to CS12 SI!"
+        }, 
+        {
+            "location": "/#what-is-si", 
+            "text": "Supplemental Instruction is a series of weekly review sessions for students taking historically difficult courses.\nIt offers students the chance to collaborate, discuss challenging concepts, and study for exams.", 
+            "title": "What is SI?"
+        }, 
+        {
+            "location": "/#what-isnt-si", 
+            "text": "Supplemental Instruction is not a lecture.\nSI Leaders are not there to teach you new material but to lead you in reviewing the material covered in lecture and to help guide you in understanding the subject.", 
+            "title": "What isn\u2019t SI?"
+        }, 
+        {
+            "location": "/#who-should-go", 
+            "text": "If you are in a Learning Community, attendance is mandatory.", 
+            "title": "Who should go?"
+        }, 
+        {
+            "location": "/#guidelines", 
+            "text": "Be respectful. This includes silencing your cell phones and not using them during sessions.  Participate! You won\u2019t get very much out of SI if you don\u2019t.  No food or drink besides water. This is a rule placed by the administration. I will enforce it.  Late entry and early exit should be quiet.  Sign in, even if you are late.", 
+            "title": "Guidelines:"
+        }, 
+        {
+            "location": "/dis01_1/", 
+            "text": "", 
+            "title": "Week 1 Dis 2: "
+        }
+    ]
+}
