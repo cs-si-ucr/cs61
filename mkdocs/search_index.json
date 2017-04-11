@@ -32,17 +32,27 @@
         }, 
         {
             "location": "/dis01_1/", 
-            "text": "Questions\n\n\n\n\n\n\nISA stands for ________.\n\nWhat is an ISA? What information is included in an ISA?\n\n\n\n\n\n\nWhat is a microprocessor?\n\n\n\n\n\n\nWhat do you think microprocessors are made of?\n\n\n\n\n\n\nHow do you think a microprocessor is designed?\n\n\n\n\n\n\nWhat is the relationship between a microprocessor and assembly language?\n\n\n\n\n\n\nWhat are you expecting to learn from this class?\n\n\n\n\n\n\nThe three types of instructions in LC-3 are ________, ________, and ________.\n\n\n\n\n\n\nIn the LC-3, there are 8 ________________ that serve as on-chip memory.\n\n\n\n\n\n\nThe BR (branch) instruction reads from the ________ to find out if the ________ was Negative, Zero, or Positive.\n\n\n\n\n\n\nIn the line of code \nBRnz LABEL\n, when would the branch be taken?\n\n\n\n\n\n\nCan the LC-3 do everything the new Intel Pentium microprocessor can do?\n\n\n\n\n\n\nName 3 operation instructions.\n\n\n\n\n\n\nName 2 data movement instructions.\n\n\n\n\n\n\nName 3 or 4 control instructions.\n\n\n\n\n\n\nWhat information is specified in the \nADD\n and \nAND\n instruction?\n\n\n\n\n\n\nProblems\n\n\n\n\n\n\nWhat is \n2\n in binary? \n4\n? \n13\n? \n27\n?\n\n\n\n\n\n\nWhat is \n1001 0110 + 0011 1101\n? \n0111 1111 + 0001 1100\n?\n\n\n\n\n\n\nWhat is \n-4\n represented in 8-bit twos complement? \n-7\n? \n-18\n? \n-31\n? \n-117\n?\n\n\n\n\n\n\nWhat is the hexadecimal representation of all of the answers from the last question?\n\n\n\n\n\n\nCan \n-200\n be represented in 8-bit twos complement?\n\n\n\n\n\n\nWhat is \n0101 1001 - 0011 0111\n? \n0011 1100 - 0101 1010\n?", 
-            "title": "Week 1 Dis 2: "
-        }, 
-        {
-            "location": "/dis01_1/#questions", 
-            "text": "ISA stands for ________. \nWhat is an ISA? What information is included in an ISA?    What is a microprocessor?    What do you think microprocessors are made of?    How do you think a microprocessor is designed?    What is the relationship between a microprocessor and assembly language?    What are you expecting to learn from this class?    The three types of instructions in LC-3 are ________, ________, and ________.    In the LC-3, there are 8 ________________ that serve as on-chip memory.    The BR (branch) instruction reads from the ________ to find out if the ________ was Negative, Zero, or Positive.    In the line of code  BRnz LABEL , when would the branch be taken?    Can the LC-3 do everything the new Intel Pentium microprocessor can do?    Name 3 operation instructions.    Name 2 data movement instructions.    Name 3 or 4 control instructions.    What information is specified in the  ADD  and  AND  instruction?", 
-            "title": "Questions"
+            "text": "Problems\n\n\n\n\n\n\nWhat is \n2\n in binary? \n4\n? \n13\n? \n27\n?\n\n\n\n\n\n\nWhat is \n1001 0110 + 0011 1101\n? \n0111 1111 + 0001 1100\n?\n\n\n\n\n\n\nWhat is \n-4\n represented in 8-bit twos complement? \n-7\n? \n-18\n? \n-31\n? \n-117\n?\n\n\n\n\n\n\nWhat is the hexadecimal representation of all of the answers from the last question?\n\n\n\n\n\n\nCan \n-200\n be represented in 8-bit twos complement?\n\n\n\n\n\n\nWhat is \n0101 1001 - 0011 0111\n? \n0011 1100 - 0101 1010\n?", 
+            "title": "Week 1 Dis 2: Binary Integers"
         }, 
         {
             "location": "/dis01_1/#problems", 
             "text": "What is  2  in binary?  4 ?  13 ?  27 ?    What is  1001 0110 + 0011 1101 ?  0111 1111 + 0001 1100 ?    What is  -4  represented in 8-bit twos complement?  -7 ?  -18 ?  -31 ?  -117 ?    What is the hexadecimal representation of all of the answers from the last question?    Can  -200  be represented in 8-bit twos complement?    What is  0101 1001 - 0011 0111 ?  0011 1100 - 0101 1010 ?", 
+            "title": "Problems"
+        }, 
+        {
+            "location": "/dis02_1/", 
+            "text": "Questions\n\n\n\n\n\n\nISA stands for ________.\n\nWhat is an ISA? What information is included in an ISA?\n\n\n\n\n\n\nWhat is a microprocessor?\n\n\n\n\n\n\nWhat do you think microprocessors are made of?\n\n\n\n\n\n\nWhat is the relationship between a microprocessor and assembly language?\n\n\n\n\n\n\nWhat are you expecting to learn from this class?\n\n\n\n\n\n\nThe three types of instructions in LC-3 are ________, ________, and ________.\n\n\n\n\n\n\nIn the LC-3, there are 8 ________________ that serve as on-chip memory.\n\n\n\n\n\n\nThe BR (branch) instruction reads from the ________ to find out if the ________ was Negative, Zero, or Positive.\n\n\n\n\n\n\nIn the line of code \nBRnz LABEL\n, when would the branch be taken?\n\n\n\n\n\n\nCan the LC-3 do everything the new Intel Pentium microprocessor can do?\n\n\n\n\n\n\nName 3 operation instructions.\n\n\n\n\n\n\nName 2 data movement instructions.\n\n\n\n\n\n\nName 3 or 4 control instructions.\n\n\n\n\n\n\nWhat information is specified in the \nADD\n instruction?\n\n\n\n\n\n\nProblems\n\n\n\n\nWhat is \n73.0\n in binary?\n\n\n176.5\n?\n\n\n90.375\n?\n\n\n63.6875\n?", 
+            "title": "Week 2 Dis 1: Microprocessors and Floating Point"
+        }, 
+        {
+            "location": "/dis02_1/#questions", 
+            "text": "ISA stands for ________. \nWhat is an ISA? What information is included in an ISA?    What is a microprocessor?    What do you think microprocessors are made of?    What is the relationship between a microprocessor and assembly language?    What are you expecting to learn from this class?    The three types of instructions in LC-3 are ________, ________, and ________.    In the LC-3, there are 8 ________________ that serve as on-chip memory.    The BR (branch) instruction reads from the ________ to find out if the ________ was Negative, Zero, or Positive.    In the line of code  BRnz LABEL , when would the branch be taken?    Can the LC-3 do everything the new Intel Pentium microprocessor can do?    Name 3 operation instructions.    Name 2 data movement instructions.    Name 3 or 4 control instructions.    What information is specified in the  ADD  instruction?", 
+            "title": "Questions"
+        }, 
+        {
+            "location": "/dis02_1/#problems", 
+            "text": "What is  73.0  in binary?  176.5 ?  90.375 ?  63.6875 ?", 
             "title": "Problems"
         }
     ]
