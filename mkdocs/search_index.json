@@ -54,6 +54,26 @@
             "location": "/dis02_1/#problems", 
             "text": "What is  73.0  in binary?  176.5 ?  90.375 ?  63.6875 ?", 
             "title": "Problems"
+        }, 
+        {
+            "location": "/dis02_2/", 
+            "text": "Lecture Questions\n\n\n\n\n\n\n2 ^ 16 = ________.\n\n\n\n\n\n\nG = ________.\n\n\n\n\n\n\nK = ________.\n\n\n\n\n\n\nT = ________.\n\n\n\n\n\n\nM = ________.\n\n\n\n\n\n\nWith 4 bits we can get ________ different combinations.\n\n\n\n\n\n\nA 32 bit address will give us ________ addresses.\n\n\n\n\n\n\nFloating Point\n\n\n\n\n\n\nWith n bits, the range of an Unsigned Magnitude binary number is ________ to ________.\n\n\n\n\n\n\nWith n bits, the range of a Twos Complement binary number is ________ to ________.\n\n\n\n\n\n\nWe encode floating point numbers using either __ bits, __ bits, or ___ bits. Each encoded number has 3 parts: ______ , _________ , _________. \n\n\n\n\n\n\nFor the 32 bit version:\n\n\n\n\n\n\nThe _____ takes 1 bit.\n\n\n\n\n\n\nThe exponent takes __ bits.\n\n\n\n\n\n\nThe mantissa takes ___ bits.\n\n\n\n\n\n\nConvert x41BD0000 from 32 bit floating point to decimal\n\n\n\n\n\n\nMasks, Vectors, and Bitwise Operations\n\n\n\n\n\n\nWhat is a bit mask?\n\n\n\n\n\n\nWhat is a bit vector? \n\n\n\n\n\n\nWith a 16 bit bit vector we can store a total of ___ different pieces of information. \n\n\n\n\n\n\nGiven that the ASCII code for \u20184\u2019 is x34 what operation and bit mask should we use to convert the character into the number 4?\n\n\n\n\n\n\nWrite the truth tables for \nAND\n, \nOR\n, \nXOR\n, and \nNAND\n.\n\n\n\n\n\n\nTo store images we use \n_\n, where for each pixel on the screen it can be any combination of Red, Green, and Blue. We can represent all colors by different intensities, if we use 8 bits to specify each color intensity we can get \n_M different colors/combinations.\n\n\n\n\n\n\nIf we have a bit vector 0011, how can we set bit 2 to 1?\n\n\n\n\n\n\nIf we have a bit vector 0011 how can we check bit 3 value?", 
+            "title": "Week 2 Dis 2: Binary and Floating Point"
+        }, 
+        {
+            "location": "/dis02_2/#lecture-questions", 
+            "text": "2 ^ 16 = ________.    G = ________.    K = ________.    T = ________.    M = ________.    With 4 bits we can get ________ different combinations.    A 32 bit address will give us ________ addresses.", 
+            "title": "Lecture Questions"
+        }, 
+        {
+            "location": "/dis02_2/#floating-point", 
+            "text": "With n bits, the range of an Unsigned Magnitude binary number is ________ to ________.    With n bits, the range of a Twos Complement binary number is ________ to ________.    We encode floating point numbers using either __ bits, __ bits, or ___ bits. Each encoded number has 3 parts: ______ , _________ , _________.     For the 32 bit version:    The _____ takes 1 bit.    The exponent takes __ bits.    The mantissa takes ___ bits.    Convert x41BD0000 from 32 bit floating point to decimal", 
+            "title": "Floating Point"
+        }, 
+        {
+            "location": "/dis02_2/#masks-vectors-and-bitwise-operations", 
+            "text": "What is a bit mask?    What is a bit vector?     With a 16 bit bit vector we can store a total of ___ different pieces of information.     Given that the ASCII code for \u20184\u2019 is x34 what operation and bit mask should we use to convert the character into the number 4?    Write the truth tables for  AND ,  OR ,  XOR , and  NAND .    To store images we use  _ , where for each pixel on the screen it can be any combination of Red, Green, and Blue. We can represent all colors by different intensities, if we use 8 bits to specify each color intensity we can get  _M different colors/combinations.    If we have a bit vector 0011, how can we set bit 2 to 1?    If we have a bit vector 0011 how can we check bit 3 value?", 
+            "title": "Masks, Vectors, and Bitwise Operations"
         }
     ]
 }
