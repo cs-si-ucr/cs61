@@ -74,6 +74,21 @@
             "location": "/dis02_2/#masks-vectors-and-bitwise-operations", 
             "text": "What is a bit mask?    What is a bit vector?     With a 16 bit bit vector we can store a total of ___ different pieces of information.     Given that the ASCII code for \u20184\u2019 is x34 what operation and bit mask should we use to convert the character into the number 4?    Write the truth tables for  AND ,  OR ,  XOR , and  NAND .    To store images we use  _ , where for each pixel on the screen it can be any combination of Red, Green, and Blue. We can represent all colors by different intensities, if we use 8 bits to specify each color intensity we can get  _M different colors/combinations.    If we have a bit vector 0011, how can we set bit 2 to 1?    If we have a bit vector 0011 how can we check bit 3 value?", 
             "title": "Masks, Vectors, and Bitwise Operations"
+        }, 
+        {
+            "location": "/dis03_1/", 
+            "text": "Identities\n\n\nList all the boolean identities.\n\n\nWhat are the three simplifications we can make using these given in lecture?\n\n\nProblems\n\n\na | b | result\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0", 
+            "title": "Week 3 Dis 1: Boolean algebra"
+        }, 
+        {
+            "location": "/dis03_1/#identities", 
+            "text": "List all the boolean identities.  What are the three simplifications we can make using these given in lecture?", 
+            "title": "Identities"
+        }, 
+        {
+            "location": "/dis03_1/#problems", 
+            "text": "a | b | result\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0", 
+            "title": "Problems"
         }
     ]
 }
