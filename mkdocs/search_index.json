@@ -94,6 +94,16 @@
             "location": "/dis03_1/#circuits", 
             "text": "Turn the following boolean expressions into circuits:    a.b    a+b    a'    a'.b    a'.b+b'    a.b.c+a.b.d+b'.d    (a.b)'+(b'.c)'+c.d", 
             "title": "Circuits"
+        }, 
+        {
+            "location": "/dis03_2/", 
+            "text": "7-seg display\n\n\nA 7-seg display is a simple digital display.\nIt has 7 outputs, and is commonly used to display numbers.\n\n\nWrite the boolean expressions for each segment assuming a 4-bit input.\nFurther visual explanation will be provided on the board.", 
+            "title": "Week 3 Dis 2: Boolean algebra"
+        }, 
+        {
+            "location": "/dis03_2/#7-seg-display", 
+            "text": "A 7-seg display is a simple digital display.\nIt has 7 outputs, and is commonly used to display numbers.  Write the boolean expressions for each segment assuming a 4-bit input.\nFurther visual explanation will be provided on the board.", 
+            "title": "7-seg display"
         }
     ]
 }
