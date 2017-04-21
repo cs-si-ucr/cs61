@@ -5,5 +5,6 @@ pages:
     - [dis02_1.md, "Week 2 Dis 1: Microprocessors and Floating Point"]
     - [dis02_2.md, "Week 2 Dis 2: Binary and Floating Point"]
     - [dis03_1.md, "Week 3 Dis 1: Boolean algebra"]
+    - [dis03_2.md, "Week 3 Dis 2: Boolean algebra"]
 theme: readthedocs
 
