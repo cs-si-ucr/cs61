@@ -107,13 +107,43 @@
         }, 
         {
             "location": "/dis04_1/", 
-            "text": "Topics\n\n\n\n\nDecoders\n\n\nMultiplexers\n\n\nHalf-adders\n\n\nFull-adders\n\n\nRipple-carry addition", 
+            "text": "Topics\n\n\n\n\nDecoders\n\n\nMultiplexers\n\n\nHalf-adders\n\n\nFull-adders\n\n\nRipple-carry addition\n\n\nCarry look-ahead addition\n\n\n\n\nDecoders\n\n\nHow do decoders work?\n\n\nDraw the circuit diagram for a 2-bit decoder.\nHow many outputs does it have?\nHow many inputs does it have?\n\n\nA decoder has 267 outputs.\nHow many input bits does it have?\n\n\nMultiplexers\n\n\nWhat are multiplexers used for?\n\n\nDraw the circuit diagram for a 2-bit multiplexer.\nHOw many outputs does it have?\nHow many inputs does it have?\n\n\nA 9-input MUX has ____ outputs and ____ select lines.\n\n\nWhat are the select lines for a mux?\nWhere do they come from?\n\n\nHalf-adders\n\n\nHow many inputs does a half-adder have?\nHow many outputs does it have?\n\n\nWhat is the boolean expression for each of the half-adder's outputs?\n\n\nFull-adders\n\n\nHow many inputs does a full-adder have?\nHow many outputs does it have?\n\n\nWhat is the boolean expression for each of the full-adder's outputs?\n\n\nRipple-carry addition\n\n\nWhat is ripple-carry addition?\nWhy is it used?\n\n\nDraw the circuit diagram for ripple-carry addition.\n\n\nCarry look-ahead addition\n\n\nWhat is carry look-ahead addition?\nWHy is it used?", 
             "title": "Week 4 Dis 1: Combinational Logic Circuits"
         }, 
         {
             "location": "/dis04_1/#topics", 
-            "text": "Decoders  Multiplexers  Half-adders  Full-adders  Ripple-carry addition", 
+            "text": "Decoders  Multiplexers  Half-adders  Full-adders  Ripple-carry addition  Carry look-ahead addition", 
             "title": "Topics"
+        }, 
+        {
+            "location": "/dis04_1/#decoders", 
+            "text": "How do decoders work?  Draw the circuit diagram for a 2-bit decoder.\nHow many outputs does it have?\nHow many inputs does it have?  A decoder has 267 outputs.\nHow many input bits does it have?", 
+            "title": "Decoders"
+        }, 
+        {
+            "location": "/dis04_1/#multiplexers", 
+            "text": "What are multiplexers used for?  Draw the circuit diagram for a 2-bit multiplexer.\nHOw many outputs does it have?\nHow many inputs does it have?  A 9-input MUX has ____ outputs and ____ select lines.  What are the select lines for a mux?\nWhere do they come from?", 
+            "title": "Multiplexers"
+        }, 
+        {
+            "location": "/dis04_1/#half-adders", 
+            "text": "How many inputs does a half-adder have?\nHow many outputs does it have?  What is the boolean expression for each of the half-adder's outputs?", 
+            "title": "Half-adders"
+        }, 
+        {
+            "location": "/dis04_1/#full-adders", 
+            "text": "How many inputs does a full-adder have?\nHow many outputs does it have?  What is the boolean expression for each of the full-adder's outputs?", 
+            "title": "Full-adders"
+        }, 
+        {
+            "location": "/dis04_1/#ripple-carry-addition", 
+            "text": "What is ripple-carry addition?\nWhy is it used?  Draw the circuit diagram for ripple-carry addition.", 
+            "title": "Ripple-carry addition"
+        }, 
+        {
+            "location": "/dis04_1/#carry-look-ahead-addition", 
+            "text": "What is carry look-ahead addition?\nWHy is it used?", 
+            "title": "Carry look-ahead addition"
         }
     ]
 }
