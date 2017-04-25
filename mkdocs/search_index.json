@@ -104,6 +104,16 @@
             "location": "/dis03_2/#7-seg-display", 
             "text": "A 7-seg display is a simple digital display.\nIt has 7 outputs, and is commonly used to display numbers.  Write the boolean expressions for each segment assuming a 4-bit input.\nFurther visual explanation will be provided on the board.", 
             "title": "7-seg display"
+        }, 
+        {
+            "location": "/dis04_1/", 
+            "text": "Topics\n\n\n\n\nDecoders\n\n\nMultiplexers\n\n\nHalf-adders\n\n\nFull-adders\n\n\nRipple-carry addition\n\n\n\n\n!(meme)[https://imgflip.com/i/1nvdav]", 
+            "title": "Week 4 Dis 1: Combinational Logic Circuits"
+        }, 
+        {
+            "location": "/dis04_1/#topics", 
+            "text": "Decoders  Multiplexers  Half-adders  Full-adders  Ripple-carry addition   !(meme)[https://imgflip.com/i/1nvdav]", 
+            "title": "Topics"
         }
     ]
 }
