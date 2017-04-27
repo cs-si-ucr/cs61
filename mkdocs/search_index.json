@@ -147,7 +147,7 @@
         }, 
         {
             "location": "/dis04_2/", 
-            "text": "Ripple-carry Full-adder\n\n\n\n\nDraw truth table\n\n\nRipple-carry schematic\n\n\n\n\nAssembly Review\n\n\nOpen the folder containing explanations of each instruction.\nGo over each instruction briefly.\n\n\nLatches\n\n\n\n\nDraw the circuit for the R-S Latch\n\n\nDraw the circuit for the Gated D-Latch\n\n\n\n\nRegisters\n\n\nDesign a 12-bit register using Gated D-Latches\n\n\nMemory\n\n\n\n\n\n\nWhat is addressability? \n\n\n\n\n\n\nWhat does it mean for a computer to be byte addressable? \n\nWord addressable? \n\nWhat kind of addressability does the LC-3 have?\n\nWhat about your computer? \n\n\n\n\n\n\nWhat is the address space given n bit addressing? \n\nn = 10 \n\nn = 16\n\nn = 24\n\nn = 32\n\n\n\n\n\n\nWhat is the total memory given n bit addressing and each memory location storing words of size s?\n\nn = 10, s = 8 bits\n\nn = 16, s = 16 bits\n\nn = 24, s = 24 bits\n\nn = 32, s = 8 bits\n\nn = 32, s = 32 bits", 
+            "text": "Ripple-carry Full-adder\n\n\n\n\nDraw truth table\n\n\nRipple-carry schematic\n\n\n\n\nAssembly Review\n\n\nOpen the folder containing explanations of each instruction.\nGo over each instruction briefly.\n\n\nLatches\n\n\n\n\nDraw the circuit for the R-S Latch\n\n\nDraw the circuit for the Gated D-Latch\n\n\n\n\nRegisters\n\n\nDesign a 4-bit register using Gated D-Latches\n\n\nMemory\n\n\n\n\n\n\nWhat is addressability? \n\n\n\n\n\n\nWhat does it mean for a computer to be byte addressable? \n\nWord addressable? \n\nWhat kind of addressability does the LC-3 have?\n\nWhat about your computer? \n\n\n\n\n\n\nWhat is the address space given n bit addressing? \n\nn = 10 \n\nn = 16\n\nn = 24\n\nn = 32\n\n\n\n\n\n\nWhat is the total memory given n bit addressing and each memory location storing words of size s?\n\nn = 10, s = 8 bits\n\nn = 16, s = 16 bits\n\nn = 24, s = 24 bits\n\nn = 32, s = 8 bits\n\nn = 32, s = 32 bits", 
             "title": "Week 4 Dis 2: Adders, Assembly, Registers, and Memory"
         }, 
         {
@@ -167,7 +167,7 @@
         }, 
         {
             "location": "/dis04_2/#registers", 
-            "text": "Design a 12-bit register using Gated D-Latches", 
+            "text": "Design a 4-bit register using Gated D-Latches", 
             "title": "Registers"
         }, 
         {
