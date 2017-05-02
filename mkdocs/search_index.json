@@ -174,6 +174,26 @@
             "location": "/dis04_2/#memory", 
             "text": "What is addressability?     What does it mean for a computer to be byte addressable?  \nWord addressable?  \nWhat kind of addressability does the LC-3 have? \nWhat about your computer?     What is the address space given n bit addressing?  \nn = 10  \nn = 16 \nn = 24 \nn = 32    What is the total memory given n bit addressing and each memory location storing words of size s? \nn = 10, s = 8 bits \nn = 16, s = 16 bits \nn = 24, s = 24 bits \nn = 32, s = 8 bits \nn = 32, s = 32 bits", 
             "title": "Memory"
+        }, 
+        {
+            "location": "/dis05_1/", 
+            "text": "Terminology Review\n\n\n\n\nAddress Space\n\n\nAddressability\n\n\nWord\n\n\n\n\nMemory\n\n\n\n\n\n\nHow many bits are used to address each chip in a memory that is 4G bytes large and made up of 128M by 1 byte memory chips?\nHow many bits are used as the chip select in this memory?\n\n\n\n\n\n\nHow many bits are used to address each chip in a memory that is 64K bytes large and made up of 32K by 1 byte memory chips?\nHow many bits are used as the chip select in this memory?\n\n\n\n\n\n\nHow many bits are used to address each chip in a memory that is 128K bytes large and made up of 32K by 4 bit memory chips?\nHow many bits are used as the chip select in this memory?\n\n\n\n\n\n\nHow many bits are used to address each chip in a memory that is 64K bytes large and made up of 128M by 1 byte memory chips?\nHow many bits are used as the chip select in this memory?\n\n\n\n\n\n\nHow many bits are used to address each chip in a memory that is 64K words large and made up of 128M by 1 byte memory chips?\nThe word size is 8 bytes.\nHow many bits are used as the chip select in this memory?\n\n\n\n\n\n\nDetour Sign\n\n\nIn lecture, we discussed one possible method of creating a finite state machine for a detour sign.\nWe are going to expand on this.\n\n\nInstead of wrapping around from fully-lit to the all off state, the sign should reverse lighting direction until all lights are off.\n(see explanation on board)\n\n\n\n\nDraw the FSM\n\n\nDetermine the truth table for the FSM", 
+            "title": "Week 5 Dis 1: Memory and Finite State Machines"
+        }, 
+        {
+            "location": "/dis05_1/#terminology-review", 
+            "text": "Address Space  Addressability  Word", 
+            "title": "Terminology Review"
+        }, 
+        {
+            "location": "/dis05_1/#memory", 
+            "text": "How many bits are used to address each chip in a memory that is 4G bytes large and made up of 128M by 1 byte memory chips?\nHow many bits are used as the chip select in this memory?    How many bits are used to address each chip in a memory that is 64K bytes large and made up of 32K by 1 byte memory chips?\nHow many bits are used as the chip select in this memory?    How many bits are used to address each chip in a memory that is 128K bytes large and made up of 32K by 4 bit memory chips?\nHow many bits are used as the chip select in this memory?    How many bits are used to address each chip in a memory that is 64K bytes large and made up of 128M by 1 byte memory chips?\nHow many bits are used as the chip select in this memory?    How many bits are used to address each chip in a memory that is 64K words large and made up of 128M by 1 byte memory chips?\nThe word size is 8 bytes.\nHow many bits are used as the chip select in this memory?", 
+            "title": "Memory"
+        }, 
+        {
+            "location": "/dis05_1/#detour-sign", 
+            "text": "In lecture, we discussed one possible method of creating a finite state machine for a detour sign.\nWe are going to expand on this.  Instead of wrapping around from fully-lit to the all off state, the sign should reverse lighting direction until all lights are off.\n(see explanation on board)   Draw the FSM  Determine the truth table for the FSM", 
+            "title": "Detour Sign"
         }
     ]
 }
