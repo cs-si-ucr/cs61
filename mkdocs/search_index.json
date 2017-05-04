@@ -194,6 +194,16 @@
             "location": "/dis05_1/#detour-sign", 
             "text": "In lecture, we discussed one possible method of creating a finite state machine for a detour sign.\nWe are going to expand on this.  Instead of wrapping around from fully-lit to the all off state, the sign should reverse lighting direction until all lights are off.\n(see explanation on board)   Draw the FSM  Determine the truth table for the FSM", 
             "title": "Detour Sign"
+        }, 
+        {
+            "location": "/dis05_2/", 
+            "text": "Practice Midterm Review!\n\n\nYou can find a copy of the Practice Midterm \nhere\n.\nWe will go through all the questions.", 
+            "title": "Week 5 Dis 2: Midterm Review"
+        }, 
+        {
+            "location": "/dis05_2/#practice-midterm-review", 
+            "text": "You can find a copy of the Practice Midterm  here .\nWe will go through all the questions.", 
+            "title": "Practice Midterm Review!"
         }
     ]
 }
