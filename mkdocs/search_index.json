@@ -214,6 +214,16 @@
             "location": "/dis06_1/#discussion-questions", 
             "text": "What was Von Neumann's big contribution to computing?    What are the 6 steps in the instruction cycle?    What range of values can you branch to from a  BR  instruction?    What is the  PC ?    What is the  IR ?    What is the  MAR ?    What is the  MDR ?    If the word size of a particular microprocessor is 2B and the Address Space is 64k, what is the size of the  PC ? IR ? MAR ? MDR ?     How many bits is the ALUK (the signal sent to the ALU to decide what operation to perform)?\nWhat operations can the LC-3 ALU perform?", 
             "title": "Discussion Questions"
+        }, 
+        {
+            "location": "/dis06_2/", 
+            "text": "Control Signals\n\n\nUsing the format of the instruction on page 119 of your book,\nwrite the control instruction necessary to perform the \nADD\n instruction.\n\n\nNext, do the \nADDI\n instruction (add immediate),\n\nAND\n, \nBR\n, \nLD\n, \nLEA\n, and \nST\n.", 
+            "title": "Week 6 Dis 2: "
+        }, 
+        {
+            "location": "/dis06_2/#control-signals", 
+            "text": "Using the format of the instruction on page 119 of your book,\nwrite the control instruction necessary to perform the  ADD  instruction.  Next, do the  ADDI  instruction (add immediate), AND ,  BR ,  LD ,  LEA , and  ST .", 
+            "title": "Control Signals"
         }
     ]
 }
