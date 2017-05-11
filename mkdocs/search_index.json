@@ -217,12 +217,12 @@
         }, 
         {
             "location": "/dis06_2/", 
-            "text": "Control Signals\n\n\nUsing the format of the instruction on page 119 of your book,\nwrite the control instruction necessary to perform the \nADD\n instruction.\n\n\nNext, do the \nADDI\n instruction (add immediate),\n\nAND\n, \nBR\n, \nLD\n, \nLEA\n, and \nST\n.", 
+            "text": "Control Signals\n\n\nUsing \nthese pages\n,\nwrite the control instruction necessary to perform the \nADD\n instruction.\n\n\nNext, do the \nADDI\n instruction (add immediate),\n\nAND\n, \nBR\n, \nLD\n, \nLEA\n, and \nST\n.", 
             "title": "Week 6 Dis 2: "
         }, 
         {
             "location": "/dis06_2/#control-signals", 
-            "text": "Using the format of the instruction on page 119 of your book,\nwrite the control instruction necessary to perform the  ADD  instruction.  Next, do the  ADDI  instruction (add immediate), AND ,  BR ,  LD ,  LEA , and  ST .", 
+            "text": "Using  these pages ,\nwrite the control instruction necessary to perform the  ADD  instruction.  Next, do the  ADDI  instruction (add immediate), AND ,  BR ,  LD ,  LEA , and  ST .", 
             "title": "Control Signals"
         }
     ]
