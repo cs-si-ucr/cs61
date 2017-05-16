@@ -224,6 +224,16 @@
             "location": "/dis06_2/#control-signals", 
             "text": "Using  these pages ,\nwrite the control instruction necessary to perform the  ADD  instruction.  Next, do the  ADDI  instruction (add immediate), AND ,  BR ,  LD ,  LEA , and  ST .", 
             "title": "Control Signals"
+        }, 
+        {
+            "location": "/dis07_1/", 
+            "text": "Questions\n\n\n\n\n\n\nWhy would we need a multiplexer before the left arm of the ALU (SR2BUS, SR2MUX)?\nWhat two things are we choosing between?\n\n\n\n\n\n\nWhen are the condition codes set?\n\n\n\n\n\n\nWhy would we use a flag bit in the ADD instruction instead of just creating two separate instructions?\n(One to perform addition of two registers and one to add a register and an immediate value)\n\n\n\n\n\n\nWhere does the select signal for SR2MUX come from?\n\n\n\n\n\n\nWhy do we need a ready signal from memory?\n\n\n\n\n\n\nWhat is the purpose of the FSM in the LC-3?\n\n\n\n\n\n\nWhy is it acceptable for the ALU to perform all operations at once (ADD, AND, NOT..), even when the desired instruction is ADD?\n\n\n\n\n\n\nHow do we manage / control access to the LC-3 Reg. Bank?\n\n\n\n\n\n\nADD R1, R4, #-2\n\nWhen this instruction is executed, what is on the SR2bus? (What is the SR2bus?)\n\n\n\n\n\n\nAssemble this instruction:\n\n\nx3010           LEA R6, label\n\n\nx3045  label    .FILL #6", 
+            "title": "Week 7 Dis 1: LC3 Datapath"
+        }, 
+        {
+            "location": "/dis07_1/#questions", 
+            "text": "Why would we need a multiplexer before the left arm of the ALU (SR2BUS, SR2MUX)?\nWhat two things are we choosing between?    When are the condition codes set?    Why would we use a flag bit in the ADD instruction instead of just creating two separate instructions?\n(One to perform addition of two registers and one to add a register and an immediate value)    Where does the select signal for SR2MUX come from?    Why do we need a ready signal from memory?    What is the purpose of the FSM in the LC-3?    Why is it acceptable for the ALU to perform all operations at once (ADD, AND, NOT..), even when the desired instruction is ADD?    How do we manage / control access to the LC-3 Reg. Bank?    ADD R1, R4, #-2 \nWhen this instruction is executed, what is on the SR2bus? (What is the SR2bus?)    Assemble this instruction:  x3010           LEA R6, label  x3045  label    .FILL #6", 
+            "title": "Questions"
         }
     ]
 }
