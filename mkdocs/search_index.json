@@ -208,7 +208,7 @@
         {
             "location": "/dis06_1/", 
             "text": "Discussion Questions\n\n\n\n\n\n\nWhat was Von Neumann's big contribution to computing?\n\n\n\n\n\n\nWhat are the 6 steps in the instruction cycle?\n\n\n\n\n\n\nWhat range of values can you branch to from a \nBR\n instruction?\n\n\n\n\n\n\nWhat is the \nPC\n?\n\n\n\n\n\n\nWhat is the \nIR\n?\n\n\n\n\n\n\nWhat is the \nMAR\n?\n\n\n\n\n\n\nWhat is the \nMDR\n?\n\n\n\n\n\n\nIf the word size of a particular microprocessor is 2B and the Address Space is 64k, what is the size of the \nPC\n?\n\nIR\n?\n\nMAR\n?\n\nMDR\n? \n\n\n\n\n\n\nHow many bits is the ALUK (the signal sent to the ALU to decide what operation to perform)?\nWhat operations can the LC-3 ALU perform?", 
-            "title": "Week 6 Dis 1: LC-3 Datapath"
+            "title": "Week 6 Dis 1: Datapath Design Decisions"
         }, 
         {
             "location": "/dis06_1/#discussion-questions", 
@@ -228,7 +228,7 @@
         {
             "location": "/dis07_1/", 
             "text": "Questions\n\n\n\n\n\n\nWhy would we need a multiplexer before the left arm of the ALU (SR2BUS, SR2MUX)?\nWhat two things are we choosing between?\n\n\n\n\n\n\nWhen are the condition codes set?\n\n\n\n\n\n\nWhy would we use a flag bit in the ADD instruction instead of just creating two separate instructions?\n(One to perform addition of two registers and one to add a register and an immediate value)\n\n\n\n\n\n\nWhere does the select signal for SR2MUX come from?\n\n\n\n\n\n\nWhy do we need a ready signal from memory?\n\n\n\n\n\n\nWhat is the purpose of the FSM in the LC-3?\n\n\n\n\n\n\nWhy is it acceptable for the ALU to perform all operations at once (ADD, AND, NOT..), even when the desired instruction is ADD?\n\n\n\n\n\n\nHow do we manage / control access to the LC-3 Reg. Bank?\n\n\n\n\n\n\nADD R1, R4, #-2\n\nWhen this instruction is executed, what is on the SR2bus? (What is the SR2bus?)\n\n\n\n\n\n\nAssemble this instruction:\n\n\nx3010           LEA R6, label\n\n\nx3045  label    .FILL #6", 
-            "title": "Week 7 Dis 1: LC-3 Datapath, Part 2"
+            "title": "Week 7 Dis 1: LC-3 Datapaths"
         }, 
         {
             "location": "/dis07_1/#questions", 
