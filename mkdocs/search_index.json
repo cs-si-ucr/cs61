@@ -234,6 +234,16 @@
             "location": "/dis07_1/#questions", 
             "text": "Why would we need a multiplexer before the left arm of the ALU (SR2BUS, SR2MUX)?\nWhat two things are we choosing between?    When are the condition codes set?    Why would we use a flag bit in the ADD instruction instead of just creating two separate instructions?\n(One to perform addition of two registers and one to add a register and an immediate value)    Where does the select signal for SR2MUX come from?    Why do we need a ready signal from memory?    What is the purpose of the FSM in the LC-3?    Why is it acceptable for the ALU to perform all operations at once (ADD, AND, NOT..), even when the desired instruction is ADD?    How do we manage / control access to the LC-3 Reg. Bank?    ADD R1, R4, #-2 \nWhen this instruction is executed, what is on the SR2bus? (What is the SR2bus?)    Assemble this instruction:  x3010           LEA R6, label  x3045  label    .FILL #6", 
             "title": "Questions"
+        }, 
+        {
+            "location": "/dis07_2/", 
+            "text": "Addressing Modes\n\n\n\n\n\n\nWhat are the 5 addressing modes?\n\n\n\n\n\n\nHow does the Immediate addressing work?\nWhat instruction uses this mode?\n\n\n\n\n\n\nHow does Direct or PC-Relative addressing work?\nWhich instructions use this mode?\n\n\n\n\n\n\nHow does Indirect addressing work?\nWhich instructions use this mode?\n\n\n\n\n\n\nHow does Base+Offset addressing work?\nWhich instructions use this mode?", 
+            "title": "Week 7 Dis 2: Addressing Modes, and more Datapaths"
+        }, 
+        {
+            "location": "/dis07_2/#addressing-modes", 
+            "text": "What are the 5 addressing modes?    How does the Immediate addressing work?\nWhat instruction uses this mode?    How does Direct or PC-Relative addressing work?\nWhich instructions use this mode?    How does Indirect addressing work?\nWhich instructions use this mode?    How does Base+Offset addressing work?\nWhich instructions use this mode?", 
+            "title": "Addressing Modes"
         }
     ]
 }
