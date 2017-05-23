@@ -244,6 +244,16 @@
             "location": "/dis07_2/#addressing-modes", 
             "text": "What are the 5 addressing modes?    How does the Immediate addressing work?\nWhat instruction uses this mode?    How does Direct or PC-Relative addressing work?\nWhich instructions use this mode?    How does Indirect addressing work?\nWhich instructions use this mode?    How does Base+Offset addressing work?\nWhich instructions use this mode?", 
             "title": "Addressing Modes"
+        }, 
+        {
+            "location": "/dis08_1/", 
+            "text": "Questions\n\n\n\n\n\n\nWrite the Register Transfer Description for the instruction LDI.\n\n\n\n\n\n\nWrite the Effective Address (EA) for the instructions that use Direct/Pc-Relative addressing.\n\n\n\n\n\n\nDoes the instruction LEA calculate an Effective Address?\nWhy is LEA different from the other Load instructions?\n\n\n\n\n\n\nHow many memory accesses (read or write) are made during the entire instruction cycle for an STI instruction?\n\n\n\n\n\n\nWhich bits can represent the SR1 from the instruction register?\n\n\n\n\n\n\nWhen are condition codes in the LC-3 written to?\n\n\n\n\n\n\nWhich instruction use a bit flag to implement two different addressing modes for the same instruction?\n\n\n\n\n\n\nIn the LC3 data path, the output of the address adder goes to both the MARMUX and the PCMUX, potentially causing two very different register transfers to take place.\nWhy does this not happen?\n\n\n\n\n\n\nImagine we want to save an extra Opcode in the LC-3 by combining two of the instructions, and using a bit flag to implement two different addressing modes.\nWhich instructions could you combine?\nWrite out the layout of the new combined instruction, and specify how it implements both previous instructions.", 
+            "title": "Week 8 Dis 1: LC-3 Datapaths"
+        }, 
+        {
+            "location": "/dis08_1/#questions", 
+            "text": "Write the Register Transfer Description for the instruction LDI.    Write the Effective Address (EA) for the instructions that use Direct/Pc-Relative addressing.    Does the instruction LEA calculate an Effective Address?\nWhy is LEA different from the other Load instructions?    How many memory accesses (read or write) are made during the entire instruction cycle for an STI instruction?    Which bits can represent the SR1 from the instruction register?    When are condition codes in the LC-3 written to?    Which instruction use a bit flag to implement two different addressing modes for the same instruction?    In the LC3 data path, the output of the address adder goes to both the MARMUX and the PCMUX, potentially causing two very different register transfers to take place.\nWhy does this not happen?    Imagine we want to save an extra Opcode in the LC-3 by combining two of the instructions, and using a bit flag to implement two different addressing modes.\nWhich instructions could you combine?\nWrite out the layout of the new combined instruction, and specify how it implements both previous instructions.", 
+            "title": "Questions"
         }
     ]
 }
