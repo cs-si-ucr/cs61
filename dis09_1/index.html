@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Week 6 Dis 2: Control Signals - CS 61 SI: Spring 2017</title>
+  <title>Week 9 Dis 1: Traps, and Assembling - CS 61 SI: Spring 2017</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Week 6 Dis 2: Control Signals";
-    var mkdocs_page_input_path = "dis06_2.md";
-    var mkdocs_page_url = "/dis06_2/";
+    var mkdocs_page_name = "Week 9 Dis 1: Traps, and Assembling";
+    var mkdocs_page_input_path = "dis09_1.md";
+    var mkdocs_page_url = "/dis09_1/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -124,15 +124,8 @@
 <li>
           
             <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Week 6 Dis 2: Control Signals</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#control-signals">Control Signals</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../dis06_2/">Week 6 Dis 2: Control Signals</a>
         
     </li>
 <li>
@@ -166,8 +159,18 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../dis09_1/">Week 9 Dis 1: Traps, and Assembling</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Week 9 Dis 1: Traps, and Assembling</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#questions">Questions</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#assembling">Assembling</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -194,7 +197,7 @@
     
       
     
-    <li>Week 6 Dis 2: Control Signals</li>
+    <li>Week 9 Dis 1: Traps, and Assembling</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -204,11 +207,60 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="control-signals">Control Signals</h2>
-<p>Using <a href="https://drive.google.com/drive/folders/0B0LRfqrB-7AyUWxrQjJKQTM2R1k?usp=sharing">these pages</a>,
-write the control instruction necessary to perform the <code>ADD</code> instruction.</p>
-<p>Next, do the <code>ADDI</code> instruction (add immediate),
-<code>AND</code>, <code>BR</code>, <code>LD</code>, <code>LEA</code>, and <code>ST</code>.</p>
+                <h2 id="questions">Questions</h2>
+<ol>
+<li>
+<p>What do all control instructions have in common? </p>
+</li>
+<li>
+<p>What two inputs does the <code>DRMUX</code> have? </p>
+</li>
+<li>
+<p>Assemble the following BR instruction:<br>
+<code>x326E    LOOP    ADD R0, R0, #1</code><br>
+<code>.</code><br>
+<code>.</code><br>
+<code>x3321    BRnz LOOP</code></p>
+</li>
+<li>
+<p>What is a <code>TRAP</code>? </p>
+</li>
+<li>
+<p>Why do we need the <code>TRAP</code> instruction?</p>
+</li>
+<li>
+<p>What is the <code>BIOS</code>? </p>
+</li>
+<li>
+<p>What's stored in the <code>trapvec8</code>?</p>
+</li>
+<li>
+<p>What's stored in the trap vector table?</p>
+</li>
+<li>
+<p>What does the <code>EXTERNAL</code> tag do?</p>
+</li>
+<li>
+<p>What happens during the first pass of compilation?</p>
+</li>
+</ol>
+<h2 id="assembling">Assembling</h2>
+<p>Give, in hex, the machine instruction in each of the following situations:</p>
+<pre><code>x0295: BRnz LABEL
+...
+x0306: LABEL GETC
+</code></pre>
+
+<pre><code>x0386: START .FILL 0x3000
+...
+x03D5: JSR START
+</code></pre>
+
+<pre><code>x0295: JSRR R7
+</code></pre>
+
+<pre><code>0x5023: JMP R3
+</code></pre>
               
             </div>
           </div>
@@ -216,10 +268,8 @@ write the control instruction necessary to perform the <code>ADD</code> instruct
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../dis07_1/" class="btn btn-neutral float-right" title="Week 7 Dis 1: LC-3 Datapaths">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../dis06_1/" class="btn btn-neutral" title="Week 6 Dis 1: Datapath Design Decisions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../dis08_2/" class="btn btn-neutral" title="Week 8 Dis 2: Control Instructions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -245,10 +295,8 @@ write the control instruction necessary to perform the <code>ADD</code> instruct
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../dis06_1/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../dis08_2/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../dis07_1/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

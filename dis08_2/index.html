@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Week 8 Dis 2:  - CS 61 SI: Spring 2017</title>
+  <title>Week 8 Dis 2: Control Instructions - CS 61 SI: Spring 2017</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,7 +17,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Week 8 Dis 2: ";
+    var mkdocs_page_name = "Week 8 Dis 2: Control Instructions";
     var mkdocs_page_input_path = "dis08_2.md";
     var mkdocs_page_url = "/dis08_2/";
   </script>
@@ -153,7 +153,7 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">Week 8 Dis 2: </a>
+        <a class="current" href="./">Week 8 Dis 2: Control Instructions</a>
         
             <ul>
             
@@ -163,9 +163,6 @@
                 <li class="toctree-l3"><a href="#schematic">Schematic</a></li>
                 
             
-                <li class="toctree-l3"><a href="#assembling">Assembling</a></li>
-                
-            
                 <li class="toctree-l3"><a href="#jump-distances">Jump Distances</a></li>
                 
             
@@ -173,6 +170,13 @@
                 
             
             </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../dis09_1/">Week 9 Dis 1: Traps, and Assembling</a>
         
     </li>
 <li>
@@ -199,7 +203,7 @@
     
       
     
-    <li>Week 8 Dis 2: </li>
+    <li>Week 8 Dis 2: Control Instructions</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -213,25 +217,8 @@
 <p>Write the RTN for the <code>TRAP</code>, <code>JSR</code>, <code>JMP</code>, and <code>JSRR</code> instructions.</p>
 <p>List all the control signals needed to make each instruction happen.</p>
 <h2 id="schematic">Schematic</h2>
-<p>What is not shown on page 81 of your book that you need to know about?</p>
-<h2 id="assembling">Assembling</h2>
-<p>Give, in hex, the machine instruction in each of the following situations:</p>
-<pre><code>x0295: BRnz LABEL
-...
-x0306: LABEL GETC
-</code></pre>
-
-<pre><code>x0386: START .FILL 0x3000
-...
-x03D5: JSR START
-</code></pre>
-
-<pre><code>x0295: JSRR R7
-</code></pre>
-
-<pre><code>0x5023: JMP R3
-</code></pre>
-
+<p>What is not shown on page 81 of your book that you need to know about?
+<!-- answer: the DRMUX and SR1MUX --></p>
 <h2 id="jump-distances">Jump Distances</h2>
 <p>What is the range of addresses you can jump to using the JSR instruction?
 What is the range of addresses you can jump to using the JSRR instruction?
@@ -253,6 +240,8 @@ What kind of extra calculations/logic are needed to accomplish such instructions
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../dis09_1/" class="btn btn-neutral float-right" title="Week 9 Dis 1: Traps, and Assembling">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../dis08_1/" class="btn btn-neutral" title="Week 8 Dis 1: LC-3 Datapaths"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -283,6 +272,8 @@ What kind of extra calculations/logic are needed to accomplish such instructions
       
         <span><a href="../dis08_1/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../dis09_1/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

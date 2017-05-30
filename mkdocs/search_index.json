@@ -257,8 +257,8 @@
         }, 
         {
             "location": "/dis08_2/", 
-            "text": "Datapath\n\n\nWrite the RTN for the \nTRAP\n, \nJSR\n, \nJMP\n, and \nJSRR\n instructions.\n\n\nList all the control signals needed to make each instruction happen.\n\n\nSchematic\n\n\nWhat is not shown on page 81 of your book that you need to know about?\n\n\nAssembling\n\n\nGive, in hex, the machine instruction in each of the following situations:\n\n\nx0295: BRnz LABEL\n...\nx0306: LABEL GETC\n\n\n\n\nx0386: START .FILL 0x3000\n...\nx03D5: JSR START\n\n\n\n\nx0295: JSRR R7\n\n\n\n\n0x5023: JMP R3\n\n\n\n\nJump Distances\n\n\nWhat is the range of addresses you can jump to using the JSR instruction?\nWhat is the range of addresses you can jump to using the JSRR instruction?\nWhat is the range of addresses you can jump to using the JMP instruction?\nWhat is the range of addresses you can jump to using the BR instruction?\nWhat is the range of addresses you can jump to using the TRAP instruction?\n\n\nTRAP\n\n\nHow many trap routines can the LC-3 theoretically have?\nWhy?\n\n\nHow many unused bits are there in the \nTRAP\n instruction?\nWhat might we use these extra bits for?\nWhat are the consequences of choosing to do this?\n\n\nWhich instructions offer different addressing modes via a flag bit?\nWhat kind of extra calculations/logic are needed to accomplish such instructions?\n\n\nWhat's the difference between \nJSRR R6\n and \nJMP R6\n?", 
-            "title": "Week 8 Dis 2: "
+            "text": "Datapath\n\n\nWrite the RTN for the \nTRAP\n, \nJSR\n, \nJMP\n, and \nJSRR\n instructions.\n\n\nList all the control signals needed to make each instruction happen.\n\n\nSchematic\n\n\nWhat is not shown on page 81 of your book that you need to know about?\n\n\n\nJump Distances\n\n\nWhat is the range of addresses you can jump to using the JSR instruction?\nWhat is the range of addresses you can jump to using the JSRR instruction?\nWhat is the range of addresses you can jump to using the JMP instruction?\nWhat is the range of addresses you can jump to using the BR instruction?\nWhat is the range of addresses you can jump to using the TRAP instruction?\n\n\nTRAP\n\n\nHow many trap routines can the LC-3 theoretically have?\nWhy?\n\n\nHow many unused bits are there in the \nTRAP\n instruction?\nWhat might we use these extra bits for?\nWhat are the consequences of choosing to do this?\n\n\nWhich instructions offer different addressing modes via a flag bit?\nWhat kind of extra calculations/logic are needed to accomplish such instructions?\n\n\nWhat's the difference between \nJSRR R6\n and \nJMP R6\n?", 
+            "title": "Week 8 Dis 2: Control Instructions"
         }, 
         {
             "location": "/dis08_2/#datapath", 
@@ -271,11 +271,6 @@
             "title": "Schematic"
         }, 
         {
-            "location": "/dis08_2/#assembling", 
-            "text": "Give, in hex, the machine instruction in each of the following situations:  x0295: BRnz LABEL\n...\nx0306: LABEL GETC  x0386: START .FILL 0x3000\n...\nx03D5: JSR START  x0295: JSRR R7  0x5023: JMP R3", 
-            "title": "Assembling"
-        }, 
-        {
             "location": "/dis08_2/#jump-distances", 
             "text": "What is the range of addresses you can jump to using the JSR instruction?\nWhat is the range of addresses you can jump to using the JSRR instruction?\nWhat is the range of addresses you can jump to using the JMP instruction?\nWhat is the range of addresses you can jump to using the BR instruction?\nWhat is the range of addresses you can jump to using the TRAP instruction?", 
             "title": "Jump Distances"
@@ -284,6 +279,21 @@
             "location": "/dis08_2/#trap", 
             "text": "How many trap routines can the LC-3 theoretically have?\nWhy?  How many unused bits are there in the  TRAP  instruction?\nWhat might we use these extra bits for?\nWhat are the consequences of choosing to do this?  Which instructions offer different addressing modes via a flag bit?\nWhat kind of extra calculations/logic are needed to accomplish such instructions?  What's the difference between  JSRR R6  and  JMP R6 ?", 
             "title": "TRAP"
+        }, 
+        {
+            "location": "/dis09_1/", 
+            "text": "Questions\n\n\n\n\n\n\nWhat do all control instructions have in common? \n\n\n\n\n\n\nWhat two inputs does the \nDRMUX\n have? \n\n\n\n\n\n\nAssemble the following BR instruction:\n\n\nx326E    LOOP    ADD R0, R0, #1\n\n\n.\n\n\n.\n\n\nx3321    BRnz LOOP\n\n\n\n\n\n\nWhat is a \nTRAP\n? \n\n\n\n\n\n\nWhy do we need the \nTRAP\n instruction?\n\n\n\n\n\n\nWhat is the \nBIOS\n? \n\n\n\n\n\n\nWhat's stored in the \ntrapvec8\n?\n\n\n\n\n\n\nWhat's stored in the trap vector table?\n\n\n\n\n\n\nWhat does the \nEXTERNAL\n tag do?\n\n\n\n\n\n\nWhat happens during the first pass of compilation?\n\n\n\n\n\n\nAssembling\n\n\nGive, in hex, the machine instruction in each of the following situations:\n\n\nx0295: BRnz LABEL\n...\nx0306: LABEL GETC\n\n\n\n\nx0386: START .FILL 0x3000\n...\nx03D5: JSR START\n\n\n\n\nx0295: JSRR R7\n\n\n\n\n0x5023: JMP R3", 
+            "title": "Week 9 Dis 1: Traps, and Assembling"
+        }, 
+        {
+            "location": "/dis09_1/#questions", 
+            "text": "What do all control instructions have in common?     What two inputs does the  DRMUX  have?     Assemble the following BR instruction:  x326E    LOOP    ADD R0, R0, #1  .  .  x3321    BRnz LOOP    What is a  TRAP ?     Why do we need the  TRAP  instruction?    What is the  BIOS ?     What's stored in the  trapvec8 ?    What's stored in the trap vector table?    What does the  EXTERNAL  tag do?    What happens during the first pass of compilation?", 
+            "title": "Questions"
+        }, 
+        {
+            "location": "/dis09_1/#assembling", 
+            "text": "Give, in hex, the machine instruction in each of the following situations:  x0295: BRnz LABEL\n...\nx0306: LABEL GETC  x0386: START .FILL 0x3000\n...\nx03D5: JSR START  x0295: JSRR R7  0x5023: JMP R3", 
+            "title": "Assembling"
         }
     ]
 }
