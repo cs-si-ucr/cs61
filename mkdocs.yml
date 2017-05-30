@@ -15,6 +15,7 @@ pages:
     - [dis07_1.md, "Week 7 Dis 1: LC-3 Datapaths"]
     - [dis07_2.md, "Week 7 Dis 2: Addressing Modes, and more Datapaths"]
     - [dis08_1.md, "Week 8 Dis 1: LC-3 Datapaths"]
-    - [dis08_2.md, "Week 8 Dis 2: "]
+    - [dis08_2.md, "Week 8 Dis 2: Control Instructions"]
+    - [dis09_1.md, "Week 9 Dis 1: Traps, and Assembling"]
 theme: readthedocs
 
