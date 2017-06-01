@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Week 4 Dis 1: Combinational Logic Circuits - CS 61 SI: Spring 2017</title>
+  <title>Week 9 Dis 2: Input / Output - CS 61 SI: Spring 2017</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Week 4 Dis 1: Combinational Logic Circuits";
-    var mkdocs_page_input_path = "dis04_1.md";
-    var mkdocs_page_url = "/dis04_1/";
+    var mkdocs_page_name = "Week 9 Dis 2: Input / Output";
+    var mkdocs_page_input_path = "dis09_2.md";
+    var mkdocs_page_url = "/dis09_2/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -89,33 +89,8 @@
 <li>
           
             <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Week 4 Dis 1: Combinational Logic Circuits</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#topics">Topics</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#decoders">Decoders</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#multiplexers">Multiplexers</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#half-adders">Half-adders</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#full-adders">Full-adders</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#ripple-carry-addition">Ripple-carry addition</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#carry-look-ahead-addition">Carry look-ahead addition</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../dis04_1/">Week 4 Dis 1: Combinational Logic Circuits</a>
         
     </li>
 <li>
@@ -191,8 +166,27 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../dis09_2/">Week 9 Dis 2: Input / Output</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Week 9 Dis 2: Input / Output</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#input">Input</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#output">Output</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#questions">Questions</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#interrupts-vs-polling">Interrupts vs Polling</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#details">Details</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -219,7 +213,7 @@
     
       
     
-    <li>Week 4 Dis 1: Combinational Logic Circuits</li>
+    <li>Week 9 Dis 2: Input / Output</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -229,44 +223,75 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="topics">Topics</h2>
+                <h2 id="input">Input</h2>
 <ul>
-<li>Decoders</li>
-<li>Multiplexers</li>
-<li>Half-adders</li>
-<li>Full-adders</li>
-<li>Ripple-carry addition</li>
-<li>Carry look-ahead addition</li>
+<li>
+<p>What are some examples of input peripherals?</p>
+</li>
+<li>
+<p>How does the LC-3 processor acquire external input?</p>
+</li>
 </ul>
-<h2 id="decoders">Decoders</h2>
-<p>Draw the circuit diagram for a 3-selector decoder.
-How many outputs does it have?
-How many inputs does it have?</p>
-<p>A decoder has 267 outputs.
-How many input bits does it have?</p>
-<h2 id="multiplexers">Multiplexers</h2>
-<p>What are multiplexers used for?</p>
-<p>Draw the circuit diagram for a 2-bit multiplexer.
-HOw many outputs does it have?
-How many inputs does it have?</p>
-<p>A 9-input MUX has ____ outputs and ____ select lines.</p>
-<p>What are the select lines for a mux?
-Where do they come from?</p>
-<h2 id="half-adders">Half-adders</h2>
-<p>How many inputs does a half-adder have?
-How many outputs does it have?</p>
-<p>What is the boolean expression for each of the half-adder's outputs?</p>
-<h2 id="full-adders">Full-adders</h2>
-<p>How many inputs does a full-adder have?
-How many outputs does it have?</p>
-<p>What is the boolean expression for each of the full-adder's outputs?</p>
-<h2 id="ripple-carry-addition">Ripple-carry addition</h2>
-<p>What is ripple-carry addition?
-Why is it used?</p>
-<p>Draw the circuit diagram for ripple-carry addition.</p>
-<h2 id="carry-look-ahead-addition">Carry look-ahead addition</h2>
-<p>What is carry look-ahead addition?
-WHy is it used?</p>
+<h2 id="output">Output</h2>
+<ul>
+<li>
+<p>What are some examples of output peripherals?</p>
+</li>
+<li>
+<p>How does the LC-3 processor generate output?</p>
+</li>
+</ul>
+<h2 id="questions">Questions</h2>
+<ul>
+<li>
+<p>What are some different ways to acquire input or generate output?
+(that the LC-3 does not perform)</p>
+</li>
+<li>
+<p>What is memory-mapped I/O?</p>
+</li>
+</ul>
+<h2 id="interrupts-vs-polling">Interrupts vs Polling</h2>
+<ul>
+<li>
+<p>What problem does polling solve?</p>
+</li>
+<li>
+<p>What problem do interrupts solve?</p>
+</li>
+<li>
+<p>What are some differences between polling and interrupt-driven I/O?</p>
+</li>
+<li>
+<p>What are some similarities between polling and interrupt-driven I/O?
+(What are they both trying to accomplish?)</p>
+</li>
+</ul>
+<h2 id="details">Details</h2>
+<ul>
+<li>
+<p>What is the KBSR register?
+What is it used for?</p>
+</li>
+<li>
+<p>What is the KBDR register?
+What is it used for?</p>
+</li>
+<li>
+<p>What is the DSR register?
+What is it used for?</p>
+</li>
+<li>
+<p>What is the DDR register?
+What is it used for?</p>
+</li>
+<li>
+<p>Explain the process of keyboard input using the full schematic in appendix C of your book.</p>
+</li>
+<li>
+<p>Explain the process of display output using the full schematic in appendix C of your book.</p>
+</li>
+</ul>
               
             </div>
           </div>
@@ -274,10 +299,8 @@ WHy is it used?</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../dis04_2/" class="btn btn-neutral float-right" title="Week 4 Dis 2: Adders, Assembly, Registers, and Memory">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../dis03_2/" class="btn btn-neutral" title="Week 3 Dis 2: Boolean algebra"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../dis09_1/" class="btn btn-neutral" title="Week 9 Dis 1: Traps, and Assembling"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -303,10 +326,8 @@ WHy is it used?</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../dis03_2/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../dis09_1/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../dis04_2/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

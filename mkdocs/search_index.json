@@ -294,6 +294,36 @@
             "location": "/dis09_1/#assembling", 
             "text": "Give, in hex, the machine instruction in each of the following situations:  x0295: BRnz LABEL\n...\nx0306: LABEL GETC  x0386: START .FILL 0x3000\n...\nx03D5: JSR START  x0295: JSRR R7  0x5023: JMP R3", 
             "title": "Assembling"
+        }, 
+        {
+            "location": "/dis09_2/", 
+            "text": "Input\n\n\n\n\n\n\nWhat are some examples of input peripherals?\n\n\n\n\n\n\nHow does the LC-3 processor acquire external input?\n\n\n\n\n\n\nOutput\n\n\n\n\n\n\nWhat are some examples of output peripherals?\n\n\n\n\n\n\nHow does the LC-3 processor generate output?\n\n\n\n\n\n\nQuestions\n\n\n\n\n\n\nWhat are some different ways to acquire input or generate output?\n(that the LC-3 does not perform)\n\n\n\n\n\n\nWhat is memory-mapped I/O?\n\n\n\n\n\n\nInterrupts vs Polling\n\n\n\n\n\n\nWhat problem does polling solve?\n\n\n\n\n\n\nWhat problem do interrupts solve?\n\n\n\n\n\n\nWhat are some differences between polling and interrupt-driven I/O?\n\n\n\n\n\n\nWhat are some similarities between polling and interrupt-driven I/O?\n(What are they both trying to accomplish?)\n\n\n\n\n\n\nDetails\n\n\n\n\n\n\nWhat is the KBSR register?\nWhat is it used for?\n\n\n\n\n\n\nWhat is the KBDR register?\nWhat is it used for?\n\n\n\n\n\n\nWhat is the DSR register?\nWhat is it used for?\n\n\n\n\n\n\nWhat is the DDR register?\nWhat is it used for?\n\n\n\n\n\n\nExplain the process of keyboard input using the full schematic in appendix C of your book.\n\n\n\n\n\n\nExplain the process of display output using the full schematic in appendix C of your book.", 
+            "title": "Week 9 Dis 2: Input / Output"
+        }, 
+        {
+            "location": "/dis09_2/#input", 
+            "text": "What are some examples of input peripherals?    How does the LC-3 processor acquire external input?", 
+            "title": "Input"
+        }, 
+        {
+            "location": "/dis09_2/#output", 
+            "text": "What are some examples of output peripherals?    How does the LC-3 processor generate output?", 
+            "title": "Output"
+        }, 
+        {
+            "location": "/dis09_2/#questions", 
+            "text": "What are some different ways to acquire input or generate output?\n(that the LC-3 does not perform)    What is memory-mapped I/O?", 
+            "title": "Questions"
+        }, 
+        {
+            "location": "/dis09_2/#interrupts-vs-polling", 
+            "text": "What problem does polling solve?    What problem do interrupts solve?    What are some differences between polling and interrupt-driven I/O?    What are some similarities between polling and interrupt-driven I/O?\n(What are they both trying to accomplish?)", 
+            "title": "Interrupts vs Polling"
+        }, 
+        {
+            "location": "/dis09_2/#details", 
+            "text": "What is the KBSR register?\nWhat is it used for?    What is the KBDR register?\nWhat is it used for?    What is the DSR register?\nWhat is it used for?    What is the DDR register?\nWhat is it used for?    Explain the process of keyboard input using the full schematic in appendix C of your book.    Explain the process of display output using the full schematic in appendix C of your book.", 
+            "title": "Details"
         }
     ]
 }
