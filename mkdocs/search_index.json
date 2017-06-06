@@ -334,6 +334,16 @@
             "location": "/dis09_2/#practice-final", 
             "text": "Practice Final  Work on problem 2 of the free response question.", 
             "title": "Practice Final"
+        }, 
+        {
+            "location": "/dis10_1/", 
+            "text": "Review Day\n\n\nReview Questions\n\n\nAnything else you'd like to cover?", 
+            "title": "Week 10 Dis 1: Review, Part 1"
+        }, 
+        {
+            "location": "/dis10_1/#review-day", 
+            "text": "Review Questions  Anything else you'd like to cover?", 
+            "title": "Review Day"
         }
     ]
 }
